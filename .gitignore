@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+build/
+
+# env（含 API key，绝不提交）
+.env
+.env.local
+.env.*.local
+
+# vercel
+.vercel/
+
+# 敏感 / 私人内容（不上传公开仓库）
+聊天记录.docx
+聊天记录.txt
+_extract.py
+
+# misc
+.DS_Store
+*.log
+# Office 临时文件
+~$*
